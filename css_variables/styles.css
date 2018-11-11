@@ -1,0 +1,30 @@
+:root{
+    --base: #ffc600;
+    --spacing: 20px;
+    --blur: 10px;
+}
+
+body{
+    height: 100%;
+    width: 100%; 
+    text-align: center;
+    background: #6f5432;
+}
+
+.img{
+    height: 400px;
+    width: 800px;   
+    margin: 0 auto;
+    margin-top: 6%; 
+    background: var(--base);  
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+}
+
+.highlight{
+    color: var(--base);  
+}
