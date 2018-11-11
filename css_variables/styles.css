@@ -1,6 +1,6 @@
 :root{
     --base: #ffc600;
-    --spacing: 20px;
+    --spacing: 10px;
     --blur: 10px;
 }
 
@@ -8,7 +8,8 @@ body{
     height: 100%;
     width: 100%; 
     text-align: center;
-    background: #6f5432;
+    background: #3b5f98;
+    color: white;
 }
 
 .img{

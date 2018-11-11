@@ -5,5 +5,6 @@ controls.forEach(input => input.addEventListener("mousemove", handleChange));
 
 function handleChange(){
     const suffix = this.dataset.sizing || '';
+    console.log(this.value);
     document.documentElement.style.setProperty(`--${this.name}`, this.value+suffix);
 }
